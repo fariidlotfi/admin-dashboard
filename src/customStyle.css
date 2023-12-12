@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: #00193b;
+  --text: #6e757f;
+}
+
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.balance-section {
+  background: linear-gradient(to right, #cfe0f6, #ebf6fb);
+}
+
+.active {
+  color: white;
+  background-color: rgb(125 211 252);
+  border-radius: 6px;
+}
