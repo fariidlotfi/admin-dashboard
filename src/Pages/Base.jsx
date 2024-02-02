@@ -23,7 +23,7 @@ function Base() {
     <div className="lg:grid lg:grid-cols-12 bg-gray-100 min-h-screen">
       <div className={menuStyle}>
         <img
-          src="src/assets/x-lg.svg"
+          src="assets/x-lg.svg"
           className="absolute top-5 right-5 lg:hidden"
           onClick={menuExpander}
         />
@@ -33,7 +33,7 @@ function Base() {
       <div className="p-5 col-span-10 bg-gray-100 min-h-screen">
         <div className="flex justify-between ">
           <img
-            src="src/assets/hamburger.svg"
+            src="assets/hamburger.svg"
             className="lg:hidden"
             onClick={menuExpander}
           />

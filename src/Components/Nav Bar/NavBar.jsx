@@ -10,20 +10,20 @@ export default function NavBar() {
       </div>
 
       <div className="flex flex-row gap-3">
-        <img src="src/assets/darkMode.svg" width="25px" height="25px" />
+        <img src="assets/darkMode.svg" width="25px" height="25px" />
         <div className="relative flex items-center">
-          <img src="src/assets/notification.svg" width="25px" height="25px" />
+          <img src="assets/notification.svg" width="25px" height="25px" />
           <p className="absolute top-[-5px] right-[-5px] text-white bg-red-500 rounded-full px-1 text-sm">
             5
           </p>
         </div>
         <div className="relative flex items-center">
-          <img src="src/assets/messageIcon.svg" width="25px" height="25px" />
+          <img src="assets/messageIcon.svg" width="25px" height="25px" />
           <p className="absolute top-[-5px] right-[-5px] text-white bg-sky-500 rounded-full px-1 text-sm">
             5
           </p>
         </div>
-        <img src="src/assets/userAvatar.svg" width="25px" height="25px" />
+        <img src="assets/userAvatar.svg" width="25px" height="25px" />
       </div>
     </header>
   );

@@ -13,25 +13,25 @@ export default function Users() {
 
       <div className="grid grid-cols-1 grid-rows-4 gap-y-3 md:grid-cols-2 md:gap-3 md:grid-rows-2 xl:grid-rows-1 xl:grid-cols-4">
         <InfoBox
-          icon="src/assets/people.svg"
+          icon="assets/people.svg"
           iconColor="green"
           number="32,754"
           title="همه مشتریان"
         />
         <InfoBox
-          icon="src/assets/person-plus.svg"
+          icon="assets/person-plus.svg"
           iconColor="red"
           number="12,418"
           title="مشتریان جدید"
         />
         <InfoBox
-          icon="src/assets/person-gear.svg"
+          icon="assets/person-gear.svg"
           iconColor="blue"
           number="18,594"
           title="مشتریان ویژه"
         />
         <InfoBox
-          icon="src/assets/people.svg"
+          icon="assets/people.svg"
           iconColor="violet"
           number="17,640"
           title="مشتریان عادی"
@@ -69,16 +69,16 @@ export default function Users() {
           <h3 className="text-2xl font-bold">مشتریان براساس جنسیت</h3>
           <div className="flex gap-12 items-center ">
             <Icon
-              icon="src/assets/gender-male.svg"
+              icon="assets/gender-male.svg"
               iconColor="blue"
               percent="65%"
             />
             <Icon
-              icon="src/assets/gender-female.svg"
+              icon="assets/gender-female.svg"
               iconColor="blue"
               percent="32%"
             />
-            <Icon icon="src/assets/gem.svg" iconColor="blue" percent="3%" />
+            <Icon icon="assets/gem.svg" iconColor="blue" percent="3%" />
           </div>
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و </p>
         </div>

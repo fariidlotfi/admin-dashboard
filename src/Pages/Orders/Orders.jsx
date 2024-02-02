@@ -36,25 +36,25 @@ export default function Orders() {
         </div>
 
         <InfoBox
-          icon="src/assets/bag-check.svg"
+          icon="assets/bag-check.svg"
           iconColor="#035ECF"
           number="2,754"
           title="تکمیل‌شده‌ها"
         />
         <InfoBox
-          icon="src/assets/bag-plus.svg"
+          icon="assets/bag-plus.svg"
           iconColor="#00BA9D"
           number="1,980"
           title="تایید شده‌ها"
         />
         <InfoBox
-          icon="src/assets/bag-dash.svg"
+          icon="assets/bag-dash.svg"
           iconColor="#FF5470"
           number="810"
           title="لغو شده‌ها"
         />
         <InfoBox
-          icon="src/assets/bag.svg"
+          icon="assets/bag.svg"
           iconColor="#515C6B"
           number="541"
           title="مسترد شده‌ها"

@@ -10,25 +10,25 @@ export default function Reviews() {
       <SectionTitle title="نقد و بررسی محصولات" />
       <div className="grid grid-cols-1 gap-y-3 md:grid-cols-2 md:gap-3 lg:grid-cols-4 xl:grid-cols-6">
         <InfoBox
-          icon="src/assets/star.svg"
+          icon="assets/star.svg"
           iconColor="violet"
           number="4,5"
           title="میانگین امتیازات"
         />
         <InfoBox
-          icon="src/assets/people.svg"
+          icon="assets/people.svg"
           iconColor="#00BA9D"
           number="17,640"
           title="تعداد مشتریان"
         />
         <InfoBox
-          icon="src/assets/person-plus.svg"
+          icon="assets/person-plus.svg"
           iconColor="#035ECF"
           number="25٪"
           title="مشتریان جدید"
         />
         <InfoBox
-          icon="src/assets/person-gear.svg"
+          icon="assets/person-gear.svg"
           iconColor="#FF5470"
           number="75٪"
           title="مشتریان عادی"

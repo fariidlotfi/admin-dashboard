@@ -14,7 +14,7 @@ export default function Settings() {
         {/* Account Info Grid */}
         <div className="grid grid-cols-1 gap-y-3 md:grid-cols-2 md:grid-rows-3 md:gap-3 xl:grid-cols-1 xl:col-span-4">
           <div className="bg-white rounded shadow flex flex-col gap-3 p-3 items-center justify-center md:row-span-3">
-            <img src="src/assets/avatar.webp" width="100px" height="100px" />
+            <img src="assets/avatar.webp" width="100px" height="100px" />
             <h2 className="text-3xl font-bold">فرید لطفی</h2>
             <UserRoleBadge userRole="admin" />
 
@@ -29,7 +29,7 @@ export default function Settings() {
           <div className="bg-white flex flex-col gap-3 p-3 rounded shadow hover:shadow-md">
             <span className="flex gap-2 items-center">
               <img
-                src="src/assets/notification.svg"
+                src="assets/notification.svg"
                 width="20px"
                 height="20px"
               />
@@ -37,7 +37,7 @@ export default function Settings() {
             </span>
             <span className="flex gap-2 items-center">
               <img
-                src="src/assets/messageIcon.svg"
+                src="assets/messageIcon.svg"
                 width="20px"
                 height="20px"
               />
@@ -49,7 +49,7 @@ export default function Settings() {
           <div className="bg-white flex flex-col gap-3 p-3 rounded shadow hover:shadow-md md:row-span-2">
             <span className="flex gap-2 items-center">
               <img
-                src="src/assets/messageIcon.svg"
+                src="assets/messageIcon.svg"
                 width="20px"
                 height="20px"
               />
@@ -57,15 +57,15 @@ export default function Settings() {
             </span>
 
             <span className="flex gap-2 items-center">
-              <img src="src/assets/geo-alt.svg" width="20px" height="20px" />
+              <img src="assets/geo-alt.svg" width="20px" height="20px" />
               کردستان، مریوان، بلوار عبادت، مجتمع یونس کردستانی، طبقه ۲، پلاک ۱۹
             </span>
             <span className="flex gap-2 items-center">
-              <img src="src/assets/phone.svg" width="20px" height="20px" />
+              <img src="assets/phone.svg" width="20px" height="20px" />
               09195399423
             </span>
             <span className="flex gap-2 items-center">
-              <img src="src/assets/whatsapp.svg" width="20px" height="20px" />
+              <img src="assets/whatsapp.svg" width="20px" height="20px" />
               09195399423
             </span>
           </div>

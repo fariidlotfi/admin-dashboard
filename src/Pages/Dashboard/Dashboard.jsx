@@ -11,7 +11,7 @@ export default function Dashboard() {
         {/* Shop Summary Section */}
         <div className="bg-white flex flex-col gap-4 p-3 shadow rounded lg:col-span-2 xl:flex-row">
           <div className="w-full xl:max-w-[250px] bg-gray-200 h-[250px] flex items-center justify-center rounded">
-            <img src="src/assets/logo.svg" />
+            <img src="assets/logo.svg" />
           </div>
           <div className="flex flex-col gap-3 justify-center">
             <h1 className="text-4xl font-bold">فروشگاه در یک نگاه</h1>
@@ -23,7 +23,7 @@ export default function Dashboard() {
             <h2 className="text-2xl font-bold">آمارهای فروشگاه</h2>
             <div className="lg:flex gap-2">
               <IconBox
-                icon="src/assets/gem.svg"
+                icon="assets/gem.svg"
                 iconColor="#00BA9D"
                 title="درآمد"
                 number="15,412"
@@ -31,7 +31,7 @@ export default function Dashboard() {
                 percentColor="#00BA9D"
               />
               <IconBox
-                icon="src/assets/expense.svg"
+                icon="assets/expense.svg"
                 iconColor="#FF5470"
                 title="هزینه‌ها"
                 number="35,412"
@@ -39,7 +39,7 @@ export default function Dashboard() {
                 percentColor="#FF5470"
               />
               <IconBox
-                icon="src/assets/orders.svg"
+                icon="assets/orders.svg"
                 iconColor="#035ECF"
                 title="سفارشات"
                 number="380"
@@ -52,7 +52,7 @@ export default function Dashboard() {
 
         {/* Net Income Section */}
         <div className="balance-section hidden gap-3 items-center justify-center shadow border-2 border-slate-200 rounded xl:flex">
-          <img src="src/assets/balance.webp" width="50%" />
+          <img src="assets/balance.webp" width="50%" />
           <div>
             <h2 className="text-2xl font-bold text-[#00193b]">475,380</h2>
             <p>درآمد خالص</p>
@@ -73,21 +73,21 @@ export default function Dashboard() {
 
           <div className="flex flex-col gap-3">
             <ReportIconBox
-              icon="src/assets/coin.webp"
+              icon="assets/coin.webp"
               title="درآمد"
               number="176,000"
               percent="+45%"
               color="#00ba9d"
             />
             <ReportIconBox
-              icon="src/assets/expense.webp"
+              icon="assets/expense.webp"
               title="هزینه"
               number="310,000"
               percent="-12%"
               color="#ff5470"
             />
             <ReportIconBox
-              icon="src/assets/profit.webp"
+              icon="assets/profit.webp"
               title="سود"
               number="342,000"
               percent="+14.5%"

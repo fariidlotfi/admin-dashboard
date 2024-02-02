@@ -5,7 +5,7 @@ export default function StarsBar(params) {
     <div className="flex gap-2 items-center">
       <div className="flex gap-1 items-center">
         <p>{count}</p>
-        <img src="src/assets/star.svg" />
+        <img src="assets/star.svg" />
       </div>
 
       <div className="w-[90%] bg-gray-200 h-[12px] rounded-lg relative">

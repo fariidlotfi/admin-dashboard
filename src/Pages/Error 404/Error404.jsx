@@ -6,7 +6,7 @@ export default function Error404() {
 
   return (
     <div className="flex flex-col gap-5 items-center justify-center">
-      <img src="/src/assets/404.svg" className="w-1/3" />
+      <img src="assets/404.svg" className="w-1/3" />
       <h1 className="text-3xl font-bold">خطای 404 - صفحه وجود ندارد</h1>
       <p className="text-sm">
         با عرض پوزش، صفحه درخواستی حذف شده یا وجود ندارد. از طریق دکمه‌های زیر
